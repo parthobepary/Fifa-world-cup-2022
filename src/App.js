@@ -3,9 +3,7 @@ import './App.css';
 function App() {
   return (
     <div>
-     <h1>hello</h1>
-     <button class="btn btn-link">Button</button>
-     <button class="btn btn-active">Button</button>
+     <h1>hello guys</h1>
     </div>
   );
 }
