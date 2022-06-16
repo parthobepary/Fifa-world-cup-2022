@@ -7,9 +7,9 @@ const Banner = () => {
       <video className="videoTag w-full" autoPlay loop muted>
         <source src={sample} type="video/mp4" />
       </video>
-      <article className="textContainer">
-        <p className="text-white text-5xl font-bold">
-          r mato ato din daki
+      <article className="textContainer text-white mx-auto w-full">
+        <p className=" text-5xl font-bold">
+          Countdown Timer
         </p>
       </article>
     </section>
