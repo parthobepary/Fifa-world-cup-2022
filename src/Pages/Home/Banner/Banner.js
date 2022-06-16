@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import cup from "../../../assets/logo/cup.png";
 import sample from "../../../assets/vedio/cover.mp4";
 import "./Banner.css";
 
@@ -49,7 +50,7 @@ const Banner = () => {
       <article className="textContainer absolute bottom-20 md:bottom-12 text-white mx-auto w-full">
         <section className="timer-container">
           <section className="timer flex justify-center items-center md:justify-end">
-            <p className="text-6xl font-extrabold hidden md:block">To goes</p>
+            <p className="text-6xl font-extrabold hidden lg:block">To goes</p>
             <div className="clock ">
               <section className="w-20 text-2xl md:w-36 md:text-4xl">
                 <small>Days</small>
@@ -71,6 +72,25 @@ const Banner = () => {
           </section>
         </section>
       </article>
+      <figure className="absolute top-40">
+        <div>
+          <div className="flex justify-center items-center mx-20">
+            <div>
+              <img className="w-full opacity-60" src={cup} alt="" />
+            </div>
+            <div>
+              <p className="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur vitae facilis ad officiis, dolores pariatur
+                accusantium nulla recusandae veniam aperiam.
+              </p>
+            </div>
+          </div>
+          <div className="flex justify-center">
+            <button className="btn btn-primary px-10">Live now</button>
+          </div>
+        </div>
+      </figure>
     </section>
   );
 };
