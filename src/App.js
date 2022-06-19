@@ -2,6 +2,8 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Banner from "./Pages/Home/Banner/Banner";
+import LiveStream from "./Pages/Home/LiveStream/LiveStream";
+import Studium from "./Pages/Home/Studium/Studium";
 import PointTable from "./Pages/PointTable/PointTable";
 
 function App() {
@@ -9,9 +11,9 @@ function App() {
     <div className="">
       <Navbar></Navbar>
       <Banner></Banner>
-      {/* <LiveStream></LiveStream> */}
+      <LiveStream></LiveStream>
       <PointTable></PointTable>
-      {/* <Studium></Studium> */}
+      <Studium></Studium>
       <Footer></Footer>
     </div>
   );
