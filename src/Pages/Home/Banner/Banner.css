@@ -1,7 +1,7 @@
 .videoTag {
   opacity: 1;
   filter: brightness(40%);
-  height: 100vh;
+  min-height: 100vh;
 }
 .textContainer {
   left: 0;
