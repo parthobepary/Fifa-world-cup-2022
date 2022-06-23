@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import cup from "../../../assets/logo/cup.png";
 import sample from "../../../assets/vedio/cover.mp4";
 import "./Banner.css";
 
@@ -72,17 +71,14 @@ const Banner = () => {
           </section>
         </section>
       </article>
-      <figure className="absolute top-40">
+      <figure className="absolute top-60">
         <div>
           <div className="flex justify-center items-center mx-20">
             <div>
-              <img className="w-full opacity-60" src={cup} alt="" />
-            </div>
-            <div>
-              <p className="text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur vitae facilis ad officiis, dolores pariatur
-                accusantium nulla recusandae veniam aperiam.
+              <p className="text-white mb-4">
+                Any extramarital sexual encounter that takes place in Qatar
+                during the 2022 World Cup could result in a seven-year jail
+                sentence
               </p>
             </div>
           </div>
